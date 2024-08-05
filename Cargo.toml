@@ -1,0 +1,13 @@
+[package]
+name = "llama31_prompt_guard_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+rust-bert = { version = "0.22.0", features = ["onnx", "download-libtorch"] }
+tokio = { version = "1.0", features = ["full"] }
+serde_json = "1.0"
+onnxruntime = "0.0.14"
+tokenizers = "0.19.0"
+ndarray = "0.15.0"
