@@ -17,7 +17,9 @@ https://huggingface.co/docs/optimum/exporters/onnx/usage_guides/export_a_model
 5. export env vars:
 
 `export ORT_INCLUDE_DIR=/opt/homebrew/Cellar/onnxruntime/1.17.1/include`
+
 `export ORT_LIB_LOCATION=opt/homebrew/Cellar/onnxruntime/1.17.1/lib`
+
 `export ORT_STRATEGY=system`
 
 6. Run example with `cargo run`
