@@ -185,7 +185,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "./model/tokenizer_config.json",
     );
 
-    let model_path = "./onnx_prompt_guard/model.onnx";
+    let model_path = "./model/model.onnx";
     let mut model = OnnxSequenceClassificationModel::new(&environment, model_path);
 
     let input_text = "hello world!";
